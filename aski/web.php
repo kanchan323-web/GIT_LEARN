@@ -5,4 +5,5 @@ Route::get('/UserEdit/{id}','OCMSLoginController@edit_user')->middleware('PageAc
 Route::get('/UserDelete/{id}','OCMSLoginController@delete_user')->middleware('PageAccess:User');
 
 Route::post('/updateuser/{id}','OCMSLoginController@update_user');
+Route::post('/updateuser/{id}','OCMSLoginController@update_insert');
 
