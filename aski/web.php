@@ -7,3 +7,5 @@ Route::get('/UserDelete/{id}','OCMSLoginController@delete_user')->middleware('Pa
 Route::post('/updateuser/{id}','OCMSLoginController@update_user');
 Route::post('/updateuser/{id}','OCMSLoginController@update_insert');
 
+Route::post('/updateuser/{id}','OCMSLoginController@update');
+
